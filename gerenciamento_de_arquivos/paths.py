@@ -66,6 +66,8 @@ pasta = Path()
 for arquivo in pasta.glob(".txt"): # assim como o comando grep, o glob() serve para filtrarmos arquivos dentro de um diretorio através do padrão passado como parâmetro.
     print(arquivo)
 
+# Bônus: o rglob("*") retorna todos os arquivos recursivamente. 
+
 # --------------------------------------------------------------------------------------------------------
 
 caminho = Path("gerenciamento_de_arquivos/arquivo.txt")
